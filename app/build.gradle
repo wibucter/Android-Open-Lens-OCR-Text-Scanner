@@ -3,11 +3,11 @@ apply plugin: 'com.android.application'
 
 android {
     namespace "com.technikh.imagetextgrabber"
-    compileSdkVersion 34 // Updated to the latest stable version
+    compileSdkVersion 31 // Updated to the latest stable version
     defaultConfig {
         applicationId "com.technikh.imagetextgrabber"
         minSdkVersion 21
-        targetSdkVersion 34 // Updated to the latest stable version
+        targetSdkVersion 31 // Updated to the latest stable version
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
         multiDexEnabled true
